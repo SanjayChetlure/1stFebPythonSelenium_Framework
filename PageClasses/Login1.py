@@ -14,11 +14,11 @@ class SwagLabLoginPage:
         self.driver=driver
 
     #3: perform actions
-    def enterUsername(self):
-        self.driver.find_element(By.XPATH,self.inpUsernameXpath).send_keys("standard_user")
+    def enterUsername(self,UnValue):
+        self.driver.find_element(By.XPATH,self.inpUsernameXpath).send_keys(UnValue)
 
-    def enterPassword(self):
-        self.driver.find_element(By.XPATH,self.inpPasswordXpath).send_keys("secret_sauce")
+    def enterPassword(self,PwdValue):
+        self.driver.find_element(By.XPATH,self.inpPasswordXpath).send_keys(PwdValue)
 
     def clickOnLoginBtn(self):
         self.driver.find_element(By.XPATH, self.clickLoginXpath).click()
