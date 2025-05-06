@@ -4,26 +4,27 @@ from selenium.webdriver.chrome.options import Options
 import pytest
 
 from PageClasses.Login1 import SwagLabLoginPage
+from UtilityFiles.readProperties import ReadConfig
 
 
 class Test_SwagLagLogin:
+    username = ReadConfig.getAppUsername()      # username = "standard_user"
+    password = ReadConfig.getAppPassword()      #  password = "secret_sauce"
+    app_url = ReadConfig.getAppUrl()             # app_url = "https://www.saucedemo.com/"
 
     def test_TC1_loginToApp_titleValidation(self,openbrowser):
-        username="standard_user"
-        password="secret_sauce"
-        app_url="https://www.saucedemo.com/"
 
         driver=openbrowser
-        driver.get(app_url)
+        driver.get(self.app_url)
         driver.implicitly_wait(5)
 
         login=SwagLabLoginPage(driver)
-        login.enterUsername(username)
-        login.enterPassword(password)
+        login.enterUsername(self.username)
+        login.enterPassword(self.password)
         login.clickOnLoginBtn()
 
         actTitle=driver.title
-        expTilte="Swag Labs1"
+        expTilte="Swag Labs"
 
         if actTitle==expTilte:
             assert True
@@ -32,18 +33,3 @@ class Test_SwagLagLogin:
             assert False
         time.sleep(3)
 
-
-    # def test_TC2_loginWithInvalidCredentials(self,openbrowser):
-    #     Invalidusername = "dkljgfff"
-    #     Invalidpassword = "osfeoifhewd"
-    #     app_url = "https://www.saucedemo.com/"
-    #
-    #     driver = openbrowser
-    #     driver.get(app_url)
-    #     driver.implicitly_wait(5)
-    #     login=SwagLabLoginPage(driver)
-    #     login.enterUsername(Invalidusername)
-    #     login.enterPassword(Invalidpassword)
-    #     login.clickOnLoginBtn()
-    #
-    #     time.sleep(10)
