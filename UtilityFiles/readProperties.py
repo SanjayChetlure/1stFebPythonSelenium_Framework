@@ -19,3 +19,4 @@ class ReadConfig:
     def getAppPassword():
         PWDValue = config.get("login credentials", "password")
         return PWDValue
+
