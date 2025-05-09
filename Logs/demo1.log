@@ -1,0 +1,33 @@
+2025-05-07 08:31:41: INFO: ----Test Case execution started-------
+2025-05-07 08:31:41: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-07 08:31:44: INFO: ----Passed- Act & Exp Title match----
+2025-05-07 08:32:58: INFO: ----Test Case execution started-------
+2025-05-07 08:32:58: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-07 08:33:01: ERROR: ----Failed- Act & Exp Title mist-match----
+2025-05-09 08:19:18: INFO: ----Test Case execution started-------
+2025-05-09 08:19:18: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:19:20: ERROR: ----Failed- Act & Exp Title mist-match----
+2025-05-09 08:37:37: INFO: ----Test Case execution started-------
+2025-05-09 08:37:37: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:37:39: INFO: ----Passed- Act & Exp Title match----
+2025-05-09 08:38:19: INFO: ----Test Case execution started-------
+2025-05-09 08:38:19: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:38:21: INFO: ----Passed- Act & Exp Title match----
+2025-05-09 08:38:36: INFO: ----Test Case execution started-------
+2025-05-09 08:38:36: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:38:37: INFO: ----Passed- Act & Exp Title match----
+2025-05-09 08:39:36: INFO: ----Test Case execution started-------
+2025-05-09 08:39:36: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:39:38: INFO: ----Passed- Act & Exp Title match----
+2025-05-09 08:47:08: INFO: ----Test Case execution started-------
+2025-05-09 08:47:08: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:47:10: INFO: ----Passed- Act & Exp Title match----
+2025-05-09 08:47:13: INFO: ----Test Case execution started-------
+2025-05-09 08:47:13: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:47:15: INFO: ----Passed- Act & Exp Title match----
+2025-05-09 08:50:24: INFO: ----Test Case execution started-------
+2025-05-09 08:50:24: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:50:26: INFO: ----Passed- Act & Exp Title match----
+2025-05-09 08:50:29: INFO: ----Test Case execution started-------
+2025-05-09 08:50:29: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-09 08:50:31: INFO: ----Passed- Act & Exp Title match----
