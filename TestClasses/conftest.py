@@ -25,3 +25,28 @@ def browser(request):
 def pytest_addoption(parser):
     parser.addoption("--browser",action="store",default="chrome",
                      help="provide browser name - chrome, firefox, edge, etc")
+
+
+###-----Html Report----####
+#1: It is hook for adding environment info into Report (customize info in report)
+@pytest.hookimpl(optionalhook=True)
+def pytest_metadata(metadata):
+    metadata['Project Name'] = 'Swag Labs'
+    metadata['Module Name'] = 'Login'
+    metadata['Tester Name'] = 'Sanjay'
+
+    # # ✅ Remove unwanted keys if they exist
+    # metadata.pop("JAVA_HOME", None)
+    # metadata.pop("Plugins", None)
+
+# def pytest_configure(config):
+#     config._metadata['Project Name']='Swag labs'
+#     config._metadata['Module Name'] = 'Login'
+#     config._metadata['Tester Name'] = 'Sanjay'
+#
+#
+# #2: It is Hook for delete/modify Environment info into Html Report
+# @pytest.mark.optionalhook
+# def pytest_metadata(metadata):
+#     metadata.pop("JAVA_HOME",None)
+#     metadata.pop("Plugins", None)
