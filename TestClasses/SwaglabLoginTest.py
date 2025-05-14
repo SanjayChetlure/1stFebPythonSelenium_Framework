@@ -16,7 +16,7 @@ class Test_SwagLagLogin:
     app_url = ReadConfig.getAppUrl()             # app_url = "https://www.saucedemo.com/"
     logger=LogGen.loggen()
 
-    def atest_TC1_loginToApp_titleValidation(self,openbrowser):
+    def test_TC1_loginToApp_titleValidation(self,openbrowser):
         self.logger.info("----Test Case execution started-------")
         self.logger.info("----test_TC1_loginToApp_titleValidation-------")
         driver=openbrowser
