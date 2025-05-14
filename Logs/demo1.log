@@ -64,3 +64,70 @@
 2025-05-13 08:29:01: INFO: ----Test Case execution started-------
 2025-05-13 08:29:01: INFO: ----test_TC1_loginToApp_titleValidation-------
 2025-05-13 08:29:02: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 19:36:33: INFO: ----Test Case execution started-------
+2025-05-13 19:36:33: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:36:35: ERROR: ----Failed- Act & Exp Title mist-match----
+2025-05-13 19:37:22: INFO: ----Test Case execution started-------
+2025-05-13 19:37:22: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:37:24: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 19:42:56: INFO: ----Test Case execution started-------
+2025-05-13 19:42:56: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:42:58: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 19:43:14: INFO: ----Test Case execution started-------
+2025-05-13 19:43:14: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:43:16: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 19:46:01: INFO: ----Test Case execution started-------
+2025-05-13 19:46:01: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:46:01: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 19:47:55: INFO: ----Test Case execution started-------
+2025-05-13 19:47:55: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:47:56: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 19:57:53: INFO: ----Test Case execution started-------
+2025-05-13 19:57:53: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:57:53: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 19:57:59: INFO: ----Test Case execution started-------
+2025-05-13 19:57:59: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:58:46: INFO: ----Test Case execution started-------
+2025-05-13 19:58:46: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:59:53: INFO: ----Test Case execution started-------
+2025-05-13 19:59:53: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 19:59:57: INFO: ----Passed- Act & Exp product Name match----
+2025-05-13 20:02:09: INFO: ----Test Case execution started-------
+2025-05-13 20:02:09: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 20:02:13: INFO: ----Passed- Act & Exp product Name match----
+2025-05-13 20:03:08: INFO: ----Test Case execution started-------
+2025-05-13 20:03:08: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 20:03:09: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 20:03:39: INFO: ----Test Case execution started-------
+2025-05-13 20:03:39: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 20:03:40: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 20:03:50: INFO: ----Test Case execution started-------
+2025-05-13 20:03:50: INFO: ----test_TC2_Verify_ProductName-------
+2025-05-13 20:03:54: INFO: ----Passed- Act & Exp product Name match----
+2025-05-13 20:12:30: INFO: ----Test Case execution started-------
+2025-05-13 20:12:30: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 20:12:30: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 20:12:40: INFO: ----Test Case execution started-------
+2025-05-13 20:12:40: INFO: ----test_TC2_Verify_ProductName-------
+2025-05-13 20:12:41: INFO: ----Passed- Act & Exp product Name match----
+2025-05-13 20:17:09: INFO: ----Test Case execution started-------
+2025-05-13 20:17:09: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-13 20:17:10: INFO: ----Passed- Act & Exp Title match----
+2025-05-13 20:17:21: INFO: ----Test Case execution started-------
+2025-05-13 20:17:21: INFO: ----test_TC2_Verify_ProductName-------
+2025-05-13 20:17:24: INFO: ----Passed- Act & Exp product Name match----
+2025-05-14 08:19:18: INFO: ----Test Case execution started-------
+2025-05-14 08:19:18: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-14 08:19:18: INFO: ----Passed- Act & Exp Title match----
+2025-05-14 08:25:15: INFO: ----Test Case execution started-------
+2025-05-14 08:25:15: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-14 08:25:17: INFO: ----Passed- Act & Exp Title match----
+2025-05-14 08:26:53: INFO: ----Test Case execution started-------
+2025-05-14 08:26:53: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-14 08:26:54: INFO: ----Passed- Act & Exp Title match----
+2025-05-14 08:32:26: INFO: ----Test Case execution started-------
+2025-05-14 08:32:26: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-14 08:32:26: INFO: ----Passed- Act & Exp Title match----
+2025-05-14 08:40:00: INFO: ----Test Case execution started-------
+2025-05-14 08:40:00: INFO: ----test_TC2_verifyProductName-------
+2025-05-14 08:40:00: INFO: ----Passed- Act & Exp product name match----

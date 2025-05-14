@@ -3,18 +3,25 @@ from email.policy import default
 import pytest
 from  selenium import  webdriver
 
+from UtilityFiles.readProperties import ReadConfig
+
+
 #step3: modify fixture for multiple browser
 @pytest.fixture
 def openbrowser(browser):
-    if browser=="chrome":
-        driver=webdriver.Chrome()
-        return driver
-    elif browser=="edge":
-        driver=webdriver.Edge()
-        return driver
-    elif browser=="firefox":
-        driver=webdriver.Firefox()
-        return driver
+    if browser == "chrome":
+        driver = webdriver.Chrome()
+    elif browser == "edge":
+        driver = webdriver.Edge()
+    elif browser == "firefox":
+        driver = webdriver.Firefox()
+    else:
+        raise ValueError(f"Unsupported browser: {browser}")
+
+    driver.get(ReadConfig.getAppUrl())
+    driver.implicitly_wait(5)
+    return driver
+
 
 #Step2: use to get browser name from command - line & pass value browser to openbrowser fixture
 @pytest.fixture()
@@ -35,18 +42,3 @@ def pytest_metadata(metadata):
     metadata['Module Name'] = 'Login'
     metadata['Tester Name'] = 'Sanjay'
 
-    # # ✅ Remove unwanted keys if they exist
-    # metadata.pop("JAVA_HOME", None)
-    # metadata.pop("Plugins", None)
-
-# def pytest_configure(config):
-#     config._metadata['Project Name']='Swag labs'
-#     config._metadata['Module Name'] = 'Login'
-#     config._metadata['Tester Name'] = 'Sanjay'
-#
-#
-# #2: It is Hook for delete/modify Environment info into Html Report
-# @pytest.mark.optionalhook
-# def pytest_metadata(metadata):
-#     metadata.pop("JAVA_HOME",None)
-#     metadata.pop("Plugins", None)
