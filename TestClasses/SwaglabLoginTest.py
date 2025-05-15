@@ -11,20 +11,19 @@ from UtilityFiles.readProperties import ReadConfig
 
 
 class Test_SwagLagLogin:
-    username = ReadConfig.getAppUsername()      # username = "standard_user"
-    password = ReadConfig.getAppPassword()      #  password = "secret_sauce"
-    app_url = ReadConfig.getAppUrl()             # app_url = "https://www.saucedemo.com/"
+
     logger=LogGen.loggen()
 
+    def loginToApp(self,driver):
+        login = SwagLabLoginPage(driver)
+        login.enterUsername(ReadConfig.getAppUsername())
+        login.enterPassword(ReadConfig.getAppPassword())
+        login.clickOnLoginBtn()
+
     def test_TC1_loginToApp_titleValidation(self,openbrowser):
-        self.logger.info("----Test Case execution started-------")
         self.logger.info("----test_TC1_loginToApp_titleValidation-------")
         driver=openbrowser
-
-        login=SwagLabLoginPage(driver)
-        login.enterUsername(self.username)
-        login.enterPassword(self.password)
-        login.clickOnLoginBtn()
+        self.loginToApp(driver)
 
         actTitle=driver.title
         expTilte=ReadTD.getTestData(1,1)
@@ -40,14 +39,9 @@ class Test_SwagLagLogin:
         driver.quit()
 
     def test_TC2_verifyProductName(self, openbrowser):
-        self.logger.info("----Test Case execution started-------")
         self.logger.info("----test_TC2_verifyProductName-------")
         driver = openbrowser
-
-        login = SwagLabLoginPage(driver)
-        login.enterUsername(self.username)
-        login.enterPassword(self.password)
-        login.clickOnLoginBtn()
+        self.loginToApp(driver)
 
         home=SwagLabHomePage(driver)
         actProductName=home.getBackpackProductName()
@@ -62,6 +56,12 @@ class Test_SwagLagLogin:
             assert False
         time.sleep(3)
         driver.quit()
+
+    def test_TC3_verifyProductSize(self, openbrowser):
+
+        time.sleep(3)
+
+
 
 
 
