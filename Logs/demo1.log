@@ -131,3 +131,150 @@
 2025-05-14 08:40:00: INFO: ----Test Case execution started-------
 2025-05-14 08:40:00: INFO: ----test_TC2_verifyProductName-------
 2025-05-14 08:40:00: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 08:19:26: INFO: ----Test Case execution started-------
+2025-05-15 08:19:26: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 08:19:28: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 08:19:36: INFO: ----Test Case execution started-------
+2025-05-15 08:19:36: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 08:19:36: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 08:24:46: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 08:24:47: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 08:24:55: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 08:24:55: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 19:32:08: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:32:09: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 19:33:09: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:33:10: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 19:34:13: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:34:13: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 19:35:03: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:35:04: INFO: 6
+2025-05-15 19:35:04: INFO: 6
+2025-05-15 19:35:04: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 19:36:06: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:37:39: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:37:39: INFO: 6
+2025-05-15 19:37:39: INFO: 6
+2025-05-15 19:37:39: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 19:38:31: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:38:32: INFO: ---
+2025-05-15 19:38:32: INFO: 6
+2025-05-15 19:38:32: INFO: 6
+2025-05-15 19:38:32: INFO: ----
+2025-05-15 19:38:32: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 19:40:33: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:40:33: INFO: ---
+2025-05-15 19:40:33: INFO: 6
+2025-05-15 19:40:33: INFO: 6
+2025-05-15 19:40:33: INFO: ----
+2025-05-15 19:40:34: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 19:42:22: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:42:23: INFO: ---
+2025-05-15 19:42:23: INFO: 6
+2025-05-15 19:42:23: INFO: 6
+2025-05-15 19:42:23: INFO: ----
+2025-05-15 19:42:23: INFO: ----Passed- Act & Exp product size match----
+2025-05-15 19:45:11: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:45:28: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:46:08: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:46:08: INFO: ---
+2025-05-15 19:46:08: INFO: 6
+2025-05-15 19:46:08: INFO: 6
+2025-05-15 19:46:08: INFO: ----
+2025-05-15 19:46:08: INFO: ----Passed- Act & Exp product size match----
+2025-05-15 19:46:55: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 19:46:55: INFO: ---
+2025-05-15 19:46:55: INFO: 6
+2025-05-15 19:46:55: INFO: 6
+2025-05-15 19:46:55: INFO: ----
+2025-05-15 19:46:55: INFO: ----Passed- Act & Exp product size match----
+2025-05-15 20:43:36: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 20:43:36: INFO: ---
+2025-05-15 20:43:36: INFO: 6
+2025-05-15 20:43:36: INFO: 6
+2025-05-15 20:43:36: INFO: ----
+2025-05-15 20:43:36: INFO: ----Passed- Act & Exp product size match----
+2025-05-15 20:45:22: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 20:45:22: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 20:46:38: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 20:46:38: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 20:46:46: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 20:46:46: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 20:46:54: INFO: ----test_TC3_verifyProductSize-------
+2025-05-15 20:46:55: INFO: ----Passed- Act & Exp product size match----
+2025-05-15 20:55:55: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 20:55:57: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 20:56:51: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 20:56:52: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 20:57:39: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 20:57:39: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 20:58:42: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:02:25: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:02:25: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 21:03:49: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:03:49: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 21:04:14: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:04:15: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 21:06:04: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:06:53: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:06:54: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 21:08:16: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:08:16: INFO: 29.99
+2025-05-15 21:08:16: INFO: 29.0
+2025-05-15 21:08:16: ERROR: ----Failed- Act & Exp product size mist-match----
+2025-05-15 21:09:06: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-15 21:09:06: INFO: 29.99
+2025-05-15 21:09:06: INFO: 29.99
+2025-05-15 21:09:06: INFO: ----Passed- Act & Exp product size match----
+2025-05-15 21:29:46: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:31:27: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:32:46: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:32:47: ERROR: ----Failed- Act & Exp all product size mist-match----
+2025-05-15 21:33:36: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:33:37: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 21:39:57: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 21:39:57: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 21:40:06: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 21:40:06: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 21:40:14: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:40:15: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 21:53:03: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 21:53:03: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 21:53:11: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 21:53:12: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 21:53:20: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:53:20: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 21:54:45: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 21:54:45: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 21:54:53: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 21:54:53: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 21:55:42: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:55:44: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 21:56:22: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:56:23: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 21:58:04: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 21:58:04: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 21:58:14: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 21:58:14: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 21:58:24: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:58:24: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 21:59:05: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 21:59:05: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 22:10:36: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 22:10:36: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 22:10:45: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 22:10:45: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 22:10:53: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 22:10:54: INFO: ----Passed- Act & Exp All product size match----
+2025-05-15 22:11:08: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-15 22:11:08: INFO: ----Passed- Act & Exp Title match----
+2025-05-15 22:11:16: INFO: ----test_TC2_verifyProductName-------
+2025-05-15 22:11:17: INFO: ----Passed- Act & Exp product name match----
+2025-05-15 22:11:24: INFO: ----test_TC4_verifyAllProductPrice-------
+2025-05-15 22:11:26: INFO: ----Passed- Act & Exp All product size match----
+2025-05-16 08:31:26: INFO: ----test_TC3_verifyProductSize-------
+2025-05-16 08:31:27: INFO: ----Passed- Act & Exp product Size match----
+2025-05-16 08:45:12: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-16 08:45:13: INFO: ----Passed- Act & Exp product Price match----
+2025-05-16 08:47:10: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-16 08:47:12: INFO: ----Passed- Act & Exp product Price match----
