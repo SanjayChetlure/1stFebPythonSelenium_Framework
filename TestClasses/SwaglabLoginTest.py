@@ -20,8 +20,8 @@ class Test_SwagLagLogin:
         login.enterPassword(ReadConfig.getAppPassword())
         login.clickOnLoginBtn()
 
-
-    def atest_TC1_loginToApp_titleValidation(self,openbrowser):
+    @pytest.mark.sanity
+    def test_TC1_loginToApp_titleValidation(self,openbrowser):
         self.logger.info("----test_TC1_loginToApp_titleValidation-------")
         driver=openbrowser
         self.loginToApp(driver)
@@ -39,8 +39,8 @@ class Test_SwagLagLogin:
         time.sleep(3)
         driver.quit()
 
-
-    def atest_TC2_verifyProductName(self, openbrowser):
+    @pytest.mark.sanity
+    def test_TC2_verifyProductName(self, openbrowser):
         self.logger.info("----test_TC2_verifyProductName-------")
         driver = openbrowser
         self.loginToApp(driver)
@@ -59,8 +59,8 @@ class Test_SwagLagLogin:
         time.sleep(3)
         driver.quit()
 
-
-    def atest_TC3_verifyProductSize(self, openbrowser):
+    @pytest.mark.regression
+    def test_TC3_verifyProductSize(self, openbrowser):
         self.logger.info("----test_TC3_verifyProductSize-------")
         driver = openbrowser
         self.loginToApp(driver)
@@ -79,7 +79,7 @@ class Test_SwagLagLogin:
         time.sleep(3)
         driver.quit()
 
-
+    @pytest.mark.regression
     def test_TC4_verifyProductPrice(self, openbrowser):
         self.logger.info("----test_TC4_verifyProductPrice-------")
         driver = openbrowser
@@ -95,6 +95,27 @@ class Test_SwagLagLogin:
         else:
             driver.save_screenshot(".\\SS\\test_TC4_verifyProductPrice.png")
             self.logger.error("----Failed- Act & Exp product price mist-match----")
+            assert False
+        time.sleep(3)
+        driver.quit()
+
+    @pytest.mark.smoke
+    @pytest.mark.functional
+    def test_TC5_verifyProductAllPrice(self, openbrowser):
+        self.logger.info("----test_TC5_verifyProductAllPrice-------")
+        driver = openbrowser
+        self.loginToApp(driver)
+
+        home = SwagLabHomePage(driver)
+        actTotalPrice = home.getAllProductTotalPrice()
+        expTotalPrice = float(ReadTD.getTestData(5, 1))
+
+        if actTotalPrice == expTotalPrice:
+            assert True
+            self.logger.info("----Passed- Act & Exp Total Price match----")
+        else:
+            driver.save_screenshot(".\\SS\\test_TC5_verifyProductAllPrice.png")
+            self.logger.error("----Failed- Act & Exp Total price mist-match----")
             assert False
         time.sleep(3)
         driver.quit()

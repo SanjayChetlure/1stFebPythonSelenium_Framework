@@ -278,3 +278,23 @@
 2025-05-16 08:45:13: INFO: ----Passed- Act & Exp product Price match----
 2025-05-16 08:47:10: INFO: ----test_TC4_verifyProductPrice-------
 2025-05-16 08:47:12: INFO: ----Passed- Act & Exp product Price match----
+2025-05-16 18:59:27: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-16 18:59:27: INFO: ----Passed- Act & Exp product Price match----
+2025-05-17 08:30:51: INFO: ----test_TC5_verifyProductAllPrice-------
+2025-05-17 08:30:52: INFO: ----Passed- Act & Exp Total Price match----
+2025-05-17 08:31:28: INFO: ----test_TC5_verifyProductAllPrice-------
+2025-05-17 08:31:30: ERROR: ----Failed- Act & Exp Total price mist-match----
+2025-05-17 08:40:45: INFO: ----test_TC5_verifyProductAllPrice-------
+2025-05-17 08:40:47: INFO: ----Passed- Act & Exp Total Price match----
+2025-05-17 08:41:31: INFO: ----test_TC3_verifyProductSize-------
+2025-05-17 08:41:33: INFO: ----Passed- Act & Exp product Size match----
+2025-05-17 08:41:41: INFO: ----test_TC4_verifyProductPrice-------
+2025-05-17 08:41:41: INFO: ----Passed- Act & Exp product Price match----
+2025-05-17 08:43:04: INFO: ----test_TC1_loginToApp_titleValidation-------
+2025-05-17 08:43:04: INFO: ----Passed- Act & Exp Title match----
+2025-05-17 08:43:12: INFO: ----test_TC2_verifyProductName-------
+2025-05-17 08:43:13: INFO: ----Passed- Act & Exp product name match----
+2025-05-17 08:43:21: INFO: ----test_TC5_verifyProductAllPrice-------
+2025-05-17 08:43:21: INFO: ----Passed- Act & Exp Total Price match----
+2025-05-17 08:45:12: INFO: ----test_TC5_verifyProductAllPrice-------
+2025-05-17 08:45:14: INFO: ----Passed- Act & Exp Total Price match----
